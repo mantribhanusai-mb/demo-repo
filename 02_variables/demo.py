@@ -18,3 +18,14 @@ print(id(student_age))
 #getting type of data
 print(type(student_name))
 print(type(student_age))
+
+# in python variable can change during execution
+
+x = 10
+print("Initially:", x)
+
+x = x+5 # changes value
+print("after addition:", x )
+
+x = "salaar"  #type can also change
+print("after reassignment:", x)
