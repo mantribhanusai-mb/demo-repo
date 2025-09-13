@@ -55,3 +55,51 @@ print(id(list_num_b))
 print(list_num_a[0])
 print(list_num_b[2])
  
+x = "python"
+y = "is" 
+z = "easy"
+
+# print(xyz)   #name error: name xyz is not defined
+
+print(x+y+z)  #concatenation
+
+#name & age
+
+name = "Bhanusai"
+age = 24
+
+# old style of python
+print("my name is ",name+" and my age is ",age)
+
+# print("My name is ",name + " and my age is ",age + "after 5 years my age is ",age+5)
+# TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+# new style of python (f strings)
+
+print("my name is {name} and my age is {age} after 5 years my age is {age+5}")  # no f strings
+
+print(f"my name is {name} and my age is {age} after 5 years my age is {age+5}")  # no f strings
+
+# working with multiple variables 
+x = 10
+y = 20
+z = 30
+print(x)
+print(y)
+print(z)
+
+# above can also be done
+x,y,z = 10,20,30 # always LHS == RHS
+print(x)
+print(y)
+print(z)
+
+a = 10
+b = 20
+c = 10
+d = 10
+
+a = c = d = 10
+print(a)
+print(c)
+print(d)
